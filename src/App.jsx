@@ -1,15 +1,15 @@
 import "./App.css";
+import Header from "./components/header-layout/Header";
+import Body from "./components/body-layout/Body";
+import Footer from "./components/footer-layout/Footer";
 
 function App() {
   return (
-    <div>
-      <h1>titolo</h1>
-
-      <h1>body</h1>
-      <div>card</div>
-
-      <h1>footer</h1>
-    </div>
+    <>
+      <Header />
+      <Body />
+      <Footer />
+    </>
   );
 }
 
