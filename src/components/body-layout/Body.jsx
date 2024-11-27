@@ -1,7 +1,11 @@
+import Card from "./card/Card.jsx";
+
 export default function Body() {
   return (
     <main className="prova">
-      <div>Corpo de la mia card</div>
+      <Card />
+      <Card />
+      <Card />
     </main>
   );
 }
