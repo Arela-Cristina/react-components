@@ -1,3 +1,7 @@
+.backgroundColor {
+  background-color: #d78ef5;
+}
 .header {
-  color: violet;
+  color: black;
+  text-align: center;
 }
