@@ -1,7 +1,7 @@
-export default function Section() {
+export default function Body() {
   return (
-    <section>
+    <main className="prova">
       <div>Corpo de la mia card</div>
-    </section>
+    </main>
   );
 }
