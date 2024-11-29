@@ -13,6 +13,7 @@ export default function Body() {
               title={el.name}
               description={el.description}
               key={el.id}
+              published={el.published}
             />
           ))}
         </div>

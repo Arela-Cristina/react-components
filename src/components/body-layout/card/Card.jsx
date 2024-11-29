@@ -1,12 +1,14 @@
 import style from "./Card.module.css";
 import Button from "../ui/Button/Button.jsx";
+import imgVuota from "../../../assets/imagine-vuota.jpg"
 
-export default function Card({ thumb, title, description, id }) {
+
+export default function Card({ thumb, title, description, id, published }) {
   return (
     <div className={style.card}>
       <img
         className={style.thumb}
-        src={`src/assets/${thumb}`}
+        src={published ? `src/assets/${thumb}` : imgVuota}
         alt="Mandys candies"
       />
       <div key={id} className={style.cardBody}>
