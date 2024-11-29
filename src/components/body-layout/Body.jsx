@@ -11,9 +11,11 @@ export default function Body() {
             <Card
               thumb={el.thumb}
               title={el.name}
+              tag={el.tag}
               description={el.description}
               key={el.id}
               published={el.published}
+             
             />
           ))}
         </div>
