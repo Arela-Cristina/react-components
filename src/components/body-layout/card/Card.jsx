@@ -1,14 +1,17 @@
 import style from "./Card.module.css";
-import Mandy from "../../../assets/Brawl_Mandy.png";
 import Button from "../ui/Button/Button.jsx";
 
-export default function Card() {
+export default function Card({ thumb, title, description, id }) {
   return (
-    <div class={style.card}>
-      <img className={style.thumb} src={Mandy} alt="Mandys candies" />
-      <div class={style.cardBody}>
-        <h3 class="card-title">Card Title</h3>
-        <p class="card-text">This is a short description</p>
+    <div className={style.card}>
+      <img
+        className={style.thumb}
+        src={`src/assets/${thumb}`}
+        alt="Mandys candies"
+      />
+      <div key={id} className={style.cardBody}>
+        <h3 className="card-title">{title}</h3>
+        <p className="card-text">{description}</p>
         <Button />
       </div>
     </div>
