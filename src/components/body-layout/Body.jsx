@@ -18,8 +18,8 @@ export default function Body() {
 
   return (
     <main>
-      <section >
-        <Tags className={style.tagsContainer} tags={tagTopics} />
+      <section className={style.tagsContainer}>
+        <Tags  tags={tagTopics} />
       </section>
       <section className={style.cardContainer}>
         <div className={style.col}>

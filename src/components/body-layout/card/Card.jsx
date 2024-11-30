@@ -15,7 +15,7 @@ export default function Card({ thumb, title, description, id, published, tag }) 
       />
       <div className={style.cardBody}>
         <h3 className="card-title">{title}</h3>
-        <Tags tags={tag}/>
+          <Tags tags={tag}/>
         <p className="card-text">{description}</p>
         <Button />
       </div>
