@@ -13,7 +13,7 @@ export default [
     description: "This is a description",
     thumb: "Brawl_Sandy.png",
     tag: ["Mythic", "Controller"],
-    published: false,
+    published: true,
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export default [
     description: "This is a description",
     thumb: "Brawl_Penny.png",
     tag: ["Rare", "Support"],
-    published: false,
+    published: true,
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ export default [
     description: "This is a description",
     thumb: "Brawl_Bea.png",
     tag: ["Epic", "Sniper"],
-    published: false,
+    published: true,
   },
   {
     id: 8,
